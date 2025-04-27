@@ -1,13 +1,12 @@
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*,*::before,*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  font-family: "Jura", sans-serif;
 }
 
 :root {
@@ -18,83 +17,210 @@ html {
 }
 
 .header {
-}
+  min-width: 1920px;
+  min-height: 1080px;
 
+}
 .header__title {
     display: flex;
       color: var(--blue);
-      width: 1760px;
-      height: 82px;
+      width: 2110px;
+      height: 100px;
       font-family: "Jura", sans-serif;
       justify-content: space-between;
       align-items: center;
-      margin: 30px 80px 0 80px;
+      margin: 35px 10px 30px 100px;
 }
 .container{
+  display: block;
+  width: 1310px;
+  height: 625px;
+  margin-left: 498px;
+  margin-top: 58px;
+
+}
+.mat{
+  width: 694px;
+  height: 114px;
+  font-family: "Jura", sans-serif;
+  font-size: 115px;
+  color: #42B2FC;
+  font-weight: 700;
+  margin: 105px 669px 31px 803px;
+
+}
+.otpr{
+  width: 239px;
+  height: 60px;
+  background-color: #42B2FC;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+  border-radius: 18px;
+  border: none;
+  margin-left: 611px;
+    margin-top: 28px;
+    font-weight: 400;
+    letter-spacing: 0.3mm;
+    text-align: left;
+    padding-left: 53px;
+    cursor: pointer;
+}
+.footer{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: #42B2FC;
+  margin-top: 5.3%;
+}
+.sem{
+  width: 48px;
+  height: 48px;
+  background-color: #42B2FC;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.butss{
+  display: flex;
+  width: 408px;
+  margin: 4px 0px 3px 0px;
+  text-align: center;
+  justify-content: space-between;
+}
+.sem1{
+  margin:1px 1px 0px 0px;
+
+}
+.buts{
+  display: flex;
+  width: 1268px;
+  height: 70px;
+  margin: 10px 20px 0px 24px;
+}
+.predmet{
+  width: 427px;
+  height: 72px;
+    outline: none;
+      border-radius: 18px;
+      background-color: #fff;
+      color:#000;
+      font-size: 39px;
+      font-weight: 700;
+      margin-left: 8px;
+      letter-spacing: -0.1mm;
+      text-align: left;
+      padding-left: 45px;
+}
+
+.nab{
+  display: flex;
+  width: 1307px;
+  height: 439px;
+  margin-top: 13px;
+  border-radius: 18px;
+  padding: 23px 20px 20px 28px;
+  outline: auto;
+}
+textarea::placeholder{
+  font-size: 39px;
+  font-weight: 600;
+  color: #9BADBF;
+  padding-left: 20px;
+  letter-spacing: 0.1mm;
+}
+textarea{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 32px;
+  resize: none;
+
+}
+
+.tema{
+  width: 869px;
+  height: 72px;
+  outline: none;
+  border-radius: 18px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-right: 10px;
+  padding-left: 29px;
+  letter-spacing: 0.1mm;
+}
+.ln{
+  background-color: #000 100%;
+  width: 1573px;
+  margin: 60px 305px 48px 366px;
 }
 .p{
   border: none;
   border-radius: 0;
   outline: none;
-  font-size: 15px;
-  width: 650px;
+  font-size: 20px;
+  width: 760px;
   height: 38px;
+  letter-spacing: -0.1mm;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
+  margin-left: -61px;
+  margin-top: 4px;
   font-family: "Jura", sans-serif;
-  letter-spacing: 0.5px;
 }
 input::placeholder{
   color: #9BADBF;
   padding-left: 19px;
 }
 .pois{
-  padding-left: 20px;
   outline: auto;
-  border-radius: 14px;
-  padding-left: 20px;
+  border-radius: 16px;
+  padding-left: 87px;
   outline-color: #DAE0E5;
   display: flex;
-  width: 648px;
-  height: 38px;
+  width: 776px;
+  height: 46px;
   justify-content: center;
 }
 .form{
   color: var(--white);
-  width: 150px;
-    height: 50px;
+  width: 180px;
+    height: 60px;
     background-color: #42B2FC;
-    border-radius: 15px;
+    border-radius: 17px;
     border: none;
+    margin-right:2px;
+    margin-bottom: 37px;
     font-family: "Jura", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: -33px;
+    font-size: 24px;
+    font-weight: 600;
     cursor: pointer;
     letter-spacing: 0.7px;
 }
 .f {
-  margin-top: 60px;
+  width: 125px;
   color: var(--blue);
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
-  margin: 56px -8.2px;
-  text-decoration: none;
+  margin: 67px -9px;
+  letter-spacing: 0.3mm;
 }
 
 .logo {
   display: flex;
-  width: 160px;
-  height: 82px;
-
+  width: 190px;
+  height: 96px;
+  margin-left: -3px;
+  text-decoration: none;
 }
-
 .comp {
   display: flex;
   cursor: pointer;
   border: none;
+  margin-right: 25px;
+  margin-top: 14px;
   background-color: #ba8a8a;
-  width: 16px;
-  height: 16px;
-  margin: 11px 20px auto 0;
+  width: 17px;
+  height: 18px;
 }
